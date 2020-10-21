@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+  font-family:'Segoe UI', Tahoma,Geneva, Verdana, sans-serif ;
+ 
+}
+body{
+  background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)
+  ),url("https://momofilmfest.com/wp-content/uploads/2019/11/rode-podmic-best-microphones-for-podcasting.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+nav{
+  text-align: center;
+  text-transform: uppercase;
+}
+nav li{
+  display: inline-block;
+  padding: 0.5rem;
+}
+nav a:hover{
+  font-size: 1.5rem;
+}
+.container{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+}
+.profile-picture, .story, .player-embed{
+  flex-basis: 30%;
+}
+.profile-picture img{
+  width:500px;    
+  border-radius: 60%;
+  opacity: 0.7;
+}
+.story{
+  text-align: center;
+}
+.story p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+}
+.social-media ul{
+  
+  text-align: center;
+}
+.social-media li{
+  margin-top: 4rem;
+  display: inline-block;
+  padding: 0.3rem;
+
+ 
+}
+footer{
+  text-align: center;
+}
+
+/*CONTACT FORM STYLE*/
+form{
+display: flex;  
+margin: 2rem auto;
+align-self: center;
+justify-content: center;
+height: 80%;
+}
+.wrapper{
+height: auto;
+margin: 0;
+}
+.top-form{
+  margin-top: 1rem;
+}
+fieldset{
+  background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+  text-align: center;
+  width: 20rem;
+  border-radius: 10%;
+}
+fieldset input:not([type="checkbox"]){
+  color: black;
+  border: hidden;
+  width: 15rem;
+}
+textarea{
+ resize: both;
+ width: 15rem;
+ height: 10rem;
+ padding: 1rem;
+}
+button{
+  text-align: center;
+  width: 5rem;
+  color: black;
+  background-color:yellow;
+  ;
+  text-transform: uppercase;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+button:hover{
+  background-color: teal;
+}
+.form h1, h2{
+  text-align: center;
+  text-transform: capitalize;
+}
+.location p{
+  text-align: center;
+  white-space: pre;
+  text-transform: capitalize;
+  padding:0; 
+}
+address{
+  white-space: pre;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.contact-social-media ul{
+  margin-top: 9rem;
+  text-align: center;
+}
+.contact-social-media li{
+  display: inline-block;
+  padding: 0.3rem; 
+}
+.contact-form-footer{
+  text-align: center;
+}
+legend{
+  font-size: 2rem;
+  font-weight: 400;
+}
+label{
+ display: block;
+ color:yellow;
+ margin-bottom: 0.3rem;
+ margin-top: 0.3rem;
+}
